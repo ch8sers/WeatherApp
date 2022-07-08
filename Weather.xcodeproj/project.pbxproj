@@ -18,6 +18,8 @@
 		795BEC3C2877CF550055E857 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 795BEC3B2877CF550055E857 /* BottomSheet */; };
 		795BEC3E2877D1AE0055E857 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795BEC3D2877D1AE0055E857 /* ForecastView.swift */; };
 		795BEC402877D43F0055E857 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795BEC3F2877D43F0055E857 /* Blur.swift */; };
+		79C553C7287831C9002F059B /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C553C6287831C9002F059B /* SegmentedControl.swift */; };
+		79C553C928783541002F059B /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C553C828783541002F059B /* ForecastModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		795BEC382877CB7F0055E857 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		795BEC3D2877D1AE0055E857 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		795BEC3F2877D43F0055E857 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		79C553C6287831C9002F059B /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		79C553C828783541002F059B /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		795BEC2C2877BBC00055E857 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				79C553C828783541002F059B /* ForecastModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				795BEC3F2877D43F0055E857 /* Blur.swift */,
+				79C553C6287831C9002F059B /* SegmentedControl.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -220,12 +226,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				795BEC202877BA960055E857 /* ContentView.swift in Sources */,
+				79C553C7287831C9002F059B /* SegmentedControl.swift in Sources */,
 				795BEC352877BDE00055E857 /* HomeView.swift in Sources */,
 				795BEC402877D43F0055E857 /* Blur.swift in Sources */,
 				795BEC332877BCA10055E857 /* Extensions.swift in Sources */,
 				795BEC1E2877BA960055E857 /* WeatherApp.swift in Sources */,
 				795BEC3E2877D1AE0055E857 /* ForecastView.swift in Sources */,
 				795BEC372877C37B0055E857 /* TabBar.swift in Sources */,
+				79C553C928783541002F059B /* ForecastModel.swift in Sources */,
 				795BEC392877CB7F0055E857 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
