@@ -20,6 +20,7 @@
 		795BEC402877D43F0055E857 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795BEC3F2877D43F0055E857 /* Blur.swift */; };
 		79C553C7287831C9002F059B /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C553C6287831C9002F059B /* SegmentedControl.swift */; };
 		79C553C928783541002F059B /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C553C828783541002F059B /* ForecastModel.swift */; };
+		79C553CB28783D74002F059B /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C553CA28783D74002F059B /* ForecastCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		795BEC3F2877D43F0055E857 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		79C553C6287831C9002F059B /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		79C553C828783541002F059B /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		79C553CA28783D74002F059B /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				795BEC3F2877D43F0055E857 /* Blur.swift */,
 				79C553C6287831C9002F059B /* SegmentedControl.swift */,
+				79C553CA28783D74002F059B /* ForecastCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C553CB28783D74002F059B /* ForecastCard.swift in Sources */,
 				795BEC202877BA960055E857 /* ContentView.swift in Sources */,
 				79C553C7287831C9002F059B /* SegmentedControl.swift in Sources */,
 				795BEC352877BDE00055E857 /* HomeView.swift in Sources */,
