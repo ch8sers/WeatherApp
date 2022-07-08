@@ -108,7 +108,7 @@ struct HomeView: View {
             string[pipe].foregroundColor = .secondary.opacity(bottomSheetTranslationProrated)
         }
         
-        if let weather = string.range(of: "Mostly Clear") {
+        if let weather = string.range(of: " Mostly Clear") {
             string[weather].font = .title3.weight(.semibold)
             string[weather].foregroundColor = .secondary
         }
